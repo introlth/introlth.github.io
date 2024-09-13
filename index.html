@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화관 화면</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="#" id="movie-list">영화 목록</a>
+                    <div class="dropdown-content">
+                        <a href="#">천만 영화</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="user-recommendations">사용자 추천</a>
+                    <div class="dropdown-content">
+                        <a href="#">이태훈</a>
+                        <a href="#">김현우</a>
+                        <a href="#">장수현</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" id="cinema-list">영화관 목록</a>
+                    <div class="dropdown-content">
+                        <a href="https://www.cgv.co.kr/" target="_blank">CGV</a>
+                        <a href="https://www.megabox.co.kr/" target="_blank">메가박스</a>
+                        <a href="https://www.lottecinema.co.kr/" target="_blank">롯데시네마</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <h1>메가시네마</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="box-office" id="content">
+            <h2>개봉 영화</h2>
+            <div class="movies">
+                <div class="movie">
+                    <img src="베테랑.jpg" alt="베테랑">
+                    <div class="movie_info">
+                      <p class="likes">❤️ 4.6k</p>
+                      <button>예매</button>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="임영웅.jpg" alt="임영웅">
+                    <div class="movie_info">
+                      <p class="likes">❤️ 4.6k</p>
+                      <button>예매</button>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="블루록.jpg" alt="블루록">
+                    <div class="movie_info">
+                      <p class="likes">❤️ 4.6k</p>
+                      <button>예매</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
